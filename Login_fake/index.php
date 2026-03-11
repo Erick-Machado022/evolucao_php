@@ -1,13 +1,14 @@
 <?php 
 
-    
-    $usuario = $_POST["nome"];
-    $senha = $_POST["senha"];
+    if(isset($_POST["nome"]) && isset($_POST["senha"])){
+        $usuario = $_POST["nome"];
+        $senha = $_POST["senha"];
 
-    if($usuario != "admin" && $senha != "123" ){
-        echo "Usuario ou senha incorreto";
-    }else{
-        echo "Login realizado com sucesso";
+        if($usuario == "admin" && $senha == "123" ){
+            echo "Login realizado com sucesso";
+        }else{
+            echo "Usuario ou senha incorreto";
+        }
     }
 
 
