@@ -27,15 +27,13 @@
             <label for="nome">Usuario</label>
             <input type="text" name="nome" placeholder="Digite seu usuario">
         </div>
-         <form action="index.php" method="POST">
         <div>
             <label for="nome">Senha</label>
-            <input type="text" name="nome" placeholder="Digite sua senha">
+            <input type="password" name="senha" placeholder="Digite sua senha">
         </div>
         <div>
             <input type="submit" value="enviar">
         </div>
-    </form>
     </form>
 </body>
 </html>
