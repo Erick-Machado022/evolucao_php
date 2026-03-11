@@ -18,6 +18,7 @@ Validação de dados
 Lógica de programação aplicada ao backend
 
 📂 Projetos
+
 🔐 1. Login Fake
 
 Sistema simples de login para treinar envio de dados via formulário.
@@ -44,3 +45,4 @@ Estruturas condicionais
 🎯 Objetivo
 
 Este repositório funciona como um diário de aprendizado, registrando minha evolução no desenvolvimento com PHP.
+
