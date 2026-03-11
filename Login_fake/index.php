@@ -31,6 +31,9 @@
             <label for="nome">Senha</label>
             <input type="text" name="nome" placeholder="Digite sua senha">
         </div>
+        <div>
+            <input type="submit" value="enviar">
+        </div>
     </form>
     </form>
 </body>
